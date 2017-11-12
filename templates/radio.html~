@@ -14,10 +14,15 @@
     <br><br>
     <strong> - EXPLANATION - </strong>
     {{ explanation }}
+    <br><br>
     ========================================================================
+    <br><br>
      <h2 style="background-color:skyblue" > Last.fm API in the Works </h2>
-    <h4 style="background-color:lightblue"> Resident Broadcaster Samantha Ngo | Softdev -- pd7 | hw13 | 2017-11-09 </h4>
-    <form action="/radio" method='POST'>
+    <h4 style="background-color:lightblue"> Resident Broadcaster Samantha Ngo | Softdev -- pd7 | hw13 | 2017-11-09 </h4><br><br>
+    <form action="/">
+      {{ summary }}
+      <br>
+      <br>
       Search for a summary:<br><br>
       Artist:<br>
       <input type="text" name="artist">
